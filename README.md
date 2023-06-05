@@ -1,0 +1,1 @@
+webSocket - не был использован, так как при запросе я получил ошибку "Origin http://localhost:3000 is not allowed by Access-Control-Allow-Origin. Status code: 403" - которая указывает на необходимость CORS

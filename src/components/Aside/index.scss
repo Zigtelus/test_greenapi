@@ -1,0 +1,20 @@
+.aside {
+  width: 30%;
+  height: 100vh;
+  background: #85522336;
+
+  .contacts {
+
+    &__item {
+      background: gray;
+      padding: 7px 6px;
+      width: 100%;
+      text-align: start;
+    }
+
+    &__item_g {
+      background: rgb(148, 255, 115);
+      padding: 8px 7px;
+    }
+  }
+}

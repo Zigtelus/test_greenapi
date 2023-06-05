@@ -1,0 +1,17 @@
+.sendMessage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .placeWrite {
+    width: 90%;
+  }
+
+  .btn {
+    width: 10%;
+  }
+}
+
+.please {
+  margin: 0 auto 10vh auto;
+}
