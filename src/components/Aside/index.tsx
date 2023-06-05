@@ -58,4 +58,4 @@ function Aside () {
   </aside>
 }
 
-export default Aside
+export default Aside;
