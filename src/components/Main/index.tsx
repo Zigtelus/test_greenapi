@@ -22,7 +22,7 @@ function Chat () {
       dispatch(fetchQrCode({apiTokenInstance, idInstance}))
     }
     
-  }, [authData.idInstance])
+  }, [authData.idInstance]) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(()=> {
     const authenticated: string | null = localStorage.getItem('isAuthenticated')
@@ -35,7 +35,7 @@ function Chat () {
       dispatch(addAuthData({apiTokenInstance, idInstance}))
     }
 
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return <main className="main">
 
