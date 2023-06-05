@@ -14,7 +14,7 @@ function GetMessage() {
     dispatch(fetchGetMessage({idInstance, apiTokenInstance}))
   }
   
-  return <div>
+  return <div style={{margin: "15px 0 15px"}}>
     {
       isLoading ? <span> loading </span> :
       <>

@@ -27,6 +27,10 @@ const SendMessage = () => {
       !!chatId ?
       <div>
         <div style={{position: 'absolute', top: '0vh', width: '100%', background: '#e1e1e1', padding: '30px'}}>
+          <div>
+            "get message" - получиь саммое ранее сохраненное сообщение от вас и вам <br />
+            "delete message" - удалить саммое ранее сохраненное сообщение от вас и вам. СРАБАТЫВАЕТ ТОЛЬКО ПОСЛЕ НАЖАТИЯ "get message"
+          </div>
           <GetMessage />
           <DeleteMessage />
         </div>
@@ -37,7 +41,7 @@ const SendMessage = () => {
             placeholder={chatId === '79661608099' ? 'МЫ ГОТОВЫ ВЗЯТЬ ТЕБЯ НА РАБОТУ' : 'Введите текст сообщения'}
             value={message}
             required
-            rows={4}
+            rows={8}
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
           <button className='btn' type="submit">Send Message</button>
