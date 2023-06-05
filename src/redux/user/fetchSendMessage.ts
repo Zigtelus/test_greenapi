@@ -16,7 +16,7 @@ export const fetchSendMessage = createAsyncThunk(
     const secondPartURL = `waInstance${idInstance}/sendMessage/${apiTokenInstance}`;
 
     try {
-      const res = await api.post<any>(secondPartURL, {chatId, message});
+      await api.post<any>(secondPartURL, {chatId, message});
       return {
         chatId: chatId.slice(0, 11),
         message
