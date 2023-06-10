@@ -7,7 +7,7 @@
 3. ToolKit
 4. SASS
 
-Демонстрация проэкта: https://wonderful-sea-080f02110.3.azurestaticapps.net/
+Демонстрация проекта: https://wonderful-sea-080f02110.3.azurestaticapps.net/
 Для авторизации необходимо иметь idInstance и apiTokenInstance с https://green-api.com/index.html
 
 ТЗ:
